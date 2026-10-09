@@ -15,6 +15,10 @@
 }
 
 @theme {
-  --font-poppins: 'Poppins', sans-serif;
-  --font-opensans: 'Open Sans', sans-serif;
+   --font-poppins: 'Poppins', sans-serif;
+  --font-opensans: 'Open Sans', sans-serif; 
 } */
+
+@theme {
+  --color-mainpage: #ececec;
+}
