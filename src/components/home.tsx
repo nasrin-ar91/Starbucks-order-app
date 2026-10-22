@@ -22,9 +22,9 @@ export function Home() {
 	);
 
 	return (
-		<div className="flex flex-col items-center gap-2 p-3 w-full h-screen bg-mainpage ">
+		<div className="flex flex-col items-center gap-15 md:gap-10 px-5 md:px-10 py-5 w-full min-h-screen bg-mainpage ">
 			<Header />
-			<div className="flex flex-col items-center gap-2 overflow-y-auto">
+			<div className="flex flex-col items-center gap-15 overflow-y-auto w-full">
 				<MainMenu cartItems={cartItems} setCartItems={setCartItems} />
 				<BillMenu cartItems={cartItems} setCartItems={setCartItems} />
 			</div>
